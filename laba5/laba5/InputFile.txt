@@ -1,0 +1,17 @@
+hello
+s o m e t h i n g
+something else
+
+       1
+     2 1 2
+   3 2 1 2 3
+ 4 3 2 1 2 3 4
+
+     32123
+
+qwertyuiop asdfghjkl zxcvbnm
+1q 2w 3e 4r 5t 6y 7u 8i 9o 0p
+   123 345 567 789 890
+    12 34 56 78 90 98
+
+1 2 3 4 5 6 7
