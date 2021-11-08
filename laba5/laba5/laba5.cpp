@@ -5,17 +5,19 @@
 
 using namespace std;
 
+const int space = 32;
+
 int TheNumberOfWords(const char* str) {
     int TheNumberOfWords = 1;
     if (strlen(str) == 0) {
         TheNumberOfWords = 0;
     }
     else {
-        if ((int)str[0] == 32) {
+        if ((int)str[0] == space) {
             TheNumberOfWords = 0;
         }
         for (int i = 0; i < strlen(str) - 1; i++) {
-            if (((int)str[i] == 32) && ((int)str[i + 1] != 32)) {
+            if (((int)str[i] == space) && ((int)str[i + 1] != space)) {
                 TheNumberOfWords++;
             }
         }
